@@ -10,10 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-   
+    "deskgap": "^0.1.0",
+    "npm-run": "^5.0.1"
+  },
+  "pkg": {
+    "assets": [
+      "static/**/*"
+    ]
   },
   "devDependencies": {
-    "pkg": "^4.4.0",
-    "deskgap": "^0.1.0"
+    "pkg": "^4.4.0"
   }
 }

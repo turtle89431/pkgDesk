@@ -1,0 +1,5 @@
+const {spawn} = require("child_process")
+const {join} = require("path")
+let fp = join(__dirname,"static")
+const npm = require("npm-run")
+npm.execSync("deskgap",{cwd:fp})
